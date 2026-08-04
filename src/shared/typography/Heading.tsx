@@ -3,23 +3,23 @@ import type { ComponentPropsWithoutRef, ElementType } from "react";
 
 import { cn } from "@/shared/lib/cn";
 
-const headingVariants = cva("font-(--font-sans) text-(--color-ink)", {
+const headingVariants = cva("font-display text-[var(--color-ink)]", {
   variants: {
     size: {
       display:
-        "text-(--text-display) font-(--font-weight-bold) leading-(--leading-tight) tracking-(--tracking-tight)",
+        "text-5xl font-semibold leading-[0.94] tracking-[-0.02em] sm:text-6xl lg:text-7xl xl:text-8xl",
 
-      h1: "text-(--text-5xl) font-(--font-weight-bold) leading-(--leading-tight) tracking-(--tracking-tight)",
+      h1: "text-5xl font-bold leading-tight",
 
-      h2: "text-(--text-4xl) font-(--font-weight-bold) leading-(--leading-tight) tracking-(--tracking-tight)",
+      h2: "text-4xl font-bold leading-tight",
 
-      h3: "text-(--text-3xl) font-(--font-weight-semibold) leading-(--leading-snug)",
+      h3: "text-3xl font-semibold leading-snug",
 
-      h4: "text-(--text-2xl) font-(--font-weight-semibold) leading-(--leading-snug)",
+      h4: "text-2xl font-semibold leading-snug",
 
-      h5: "text-(--text-xl) font-(--font-weight-semibold) leading-(--leading-snug)",
+      h5: "text-xl font-semibold leading-snug",
 
-      h6: "text-(--text-lg) font-(--font-weight-semibold) leading-(--leading-snug)",
+      h6: "text-lg font-semibold leading-snug",
     },
   },
 

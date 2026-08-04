@@ -5,15 +5,35 @@
 @import "./typography.css";
 
 /* -------------------------------------------------------------------------- */
+/* Fonts                                                                      */
+/* -------------------------------------------------------------------------- */
+
+@font-face {
+  font-family: "General Sans";
+  src: url("/fonts/GeneralSans-Variable.ttf") format("truetype");
+  font-weight: 200 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* -------------------------------------------------------------------------- */
 /* Reset                                                                      */
 /* -------------------------------------------------------------------------- */
 
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
+@layer base {
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
 }
 
+@layer base {
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+}
 /* -------------------------------------------------------------------------- */
 /* Root                                                                       */
 /* -------------------------------------------------------------------------- */
@@ -21,6 +41,7 @@
 :root {
   color-scheme: light;
   accent-color: var(--color-interactive);
+  font-family: var(--font-display);
 }
 
 html {
@@ -101,11 +122,6 @@ button {
 
 button:disabled {
   cursor: not-allowed;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
 }
 
 /* -------------------------------------------------------------------------- */
