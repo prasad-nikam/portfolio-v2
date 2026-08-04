@@ -1,0 +1,118 @@
+/*
+|--------------------------------------------------------------------------
+| Theme
+|--------------------------------------------------------------------------
+|
+| Semantic design tokens.
+|
+| Components MUST consume these variables.
+| Components MUST NOT reference primitive tokens.
+|
+*/
+
+/* -------------------------------------------------------------------------- */
+/* Light Theme                                                                */
+/* -------------------------------------------------------------------------- */
+
+:root,
+[data-theme="light"] {
+  /* Surface */
+
+  --color-surface: var(--gray-0);
+  --color-surface-secondary: var(--gray-50);
+  --color-surface-tertiary: var(--gray-100);
+  --color-surface-elevated: var(--gray-0);
+  --color-surface-overlay: color-mix(in oklch, var(--color-surface) 80%, transparent);
+
+  /* Text */
+
+  --color-ink: var(--gray-950);
+  --color-ink-secondary: var(--gray-700);
+  --color-ink-muted: var(--gray-500);
+  --color-ink-disabled: var(--gray-400);
+
+  /* Border */
+
+  --color-border-subtle: var(--gray-100);
+  --color-border: var(--gray-200);
+  --color-border-strong: var(--gray-300);
+
+  /* Interactive */
+
+  --color-interactive: var(--blue-500);
+  --color-interactive-hover: color-mix(in oklch, var(--blue-500) 88%, black);
+  --color-interactive-active: color-mix(in oklch, var(--blue-500) 75%, black);
+
+  /* Focus */
+
+  --color-focus-ring: color-mix(in oklch, var(--blue-500) 45%, transparent);
+
+  /* Engineering Evidence */
+
+  --color-evidence: var(--blue-500);
+
+  /* Feedback */
+
+  --color-success: var(--green-500);
+  --color-warning: var(--amber-500);
+  --color-danger: var(--red-500);
+
+  /* Selection */
+
+  --color-selection-bg: color-mix(in oklch, var(--blue-500) 20%, white);
+
+  --color-selection-text: var(--gray-950);
+}
+
+/* -------------------------------------------------------------------------- */
+/* Dark Theme                                                                 */
+/* -------------------------------------------------------------------------- */
+
+[data-theme="dark"] {
+  /* Surface */
+
+  --color-surface: var(--gray-950);
+  --color-surface-secondary: var(--gray-900);
+  --color-surface-tertiary: var(--gray-800);
+  --color-surface-elevated: var(--gray-900);
+  --color-surface-overlay: color-mix(in oklch, var(--color-surface) 80%, transparent);
+
+  /* Text */
+
+  --color-ink: var(--gray-50);
+  --color-ink-secondary: var(--gray-300);
+  --color-ink-muted: var(--gray-500);
+  --color-ink-disabled: var(--gray-600);
+
+  /* Border */
+
+  --color-border-subtle: var(--gray-900);
+  --color-border: var(--gray-800);
+  --color-border-strong: var(--gray-700);
+
+  /* Interactive */
+
+  --color-interactive: var(--blue-500);
+  --color-interactive-hover: color-mix(in oklch, var(--blue-500) 88%, white);
+  --color-interactive-active: color-mix(in oklch, var(--blue-500) 75%, white);
+
+  /* Focus */
+
+  --color-focus-ring: color-mix(in oklch, var(--blue-500) 45%, transparent);
+
+  /* Engineering Evidence */
+
+  --color-evidence: var(--blue-500);
+
+  /* Feedback */
+
+  --color-success: var(--green-500);
+  --color-warning: var(--amber-500);
+  --color-danger: var(--red-500);
+
+  /* Selection */
+
+  --color-selection-bg: color-mix(in oklch, var(--blue-500) 25%, black);
+
+  --color-selection-text: var(--gray-50);
+}
