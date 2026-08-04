@@ -12,9 +12,9 @@ const textVariants = cva("font-(--font-sans)", {
     },
 
     size: {
-      sm: "text-(--text-sm)",
-      base: "text-(--text-base)",
-      lg: "text-(--text-lg)",
+      sm: "text-sm",
+      base: "text-base",
+      lg: "text-lg",
     },
 
     weight: {
