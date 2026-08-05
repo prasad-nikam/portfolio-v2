@@ -8,9 +8,15 @@ export const hero = {
 
   actions: {
     projects: "/#projects",
-    github: "https://github.com/your-username",
-    x: "https://x.com/your-username",
+    github: "https://github.com/prasad-nikam",
+    x: "https://x.com/prasad_c_n",
   },
 
-  evidence: ["Architecture", "API Design", "Performance", "Maintainable", "System Design"],
+  evidence: ["TypeScript", "React", "FastAPI", "Node.js", "PostgreSQL"],
 } as const;
+
+// TypeScript
+// React
+// Node.js
+// PostgreSQL
+// System Design

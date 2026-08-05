@@ -15,6 +15,7 @@
 /* -------------------------------------------------------------------------- */
 @theme {
   --font-display: "General Sans", sans-serif;
+  --font-display-x: "General Sans Italic", sans-serif;
 }
 :root,
 [data-theme="light"] {
@@ -64,8 +65,6 @@
   --color-selection-bg: color-mix(in oklch, var(--blue-500) 20%, white);
 
   --color-selection-text: var(--gray-950);
-
-  --font-display: "General Sans", sans-serif;
 }
 
 /* -------------------------------------------------------------------------- */
@@ -119,6 +118,4 @@
   --color-selection-bg: color-mix(in oklch, var(--blue-500) 25%, black);
 
   --color-selection-text: var(--gray-50);
-
-  --font-display: "General Sans", sans-serif;
 }

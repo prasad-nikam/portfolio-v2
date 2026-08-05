@@ -7,7 +7,7 @@ const headingVariants = cva("font-display text-[var(--color-ink)]", {
   variants: {
     size: {
       display:
-        "text-5xl font-semibold leading-[0.94] tracking-[-0.02em] sm:text-6xl lg:text-7xl xl:text-8xl",
+        "text-5xl font-[580] leading-[0.94] tracking-[-0.02em] sm:text-6xl lg:text-7xl xl:text-8xl",
 
       h1: "text-5xl font-bold leading-tight",
 

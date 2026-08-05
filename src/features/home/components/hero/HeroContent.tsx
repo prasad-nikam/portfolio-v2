@@ -18,8 +18,18 @@ export function HeroContent() {
           {hero.name}
         </Text>
 
-        <Heading as="h1" size="display" className="mt-8 max-w-none text-balance sm:max-w-[12ch]">
-          {hero.headline}
+        <Heading
+          as="h1"
+          size="display"
+          className="z-99 mt-8 max-w-none text-balance sm:max-w-[12ch]"
+        >
+          Building software as{" "}
+          <span className="relative inline-block px-1">
+            <span className="relative z-10">systems</span>
+
+            <span className="absolute inset-0 -z-10 rounded-sm border border-(--color-interactive)/20 bg-(--color-interactive)/8" />
+          </span>{" "}
+          , not just features.
         </Heading>
 
         <Text

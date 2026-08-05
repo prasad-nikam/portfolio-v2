@@ -21,7 +21,7 @@ export function HeroActions() {
         rel="noreferrer"
         className="inline-flex items-center gap-2 text-(--color-ink-secondary) transition-colors hover:text-(--color-ink)"
       >
-        <SiGithub className="h-4 w-4" />
+        <SiGithub className="h-5 w-5" />
         GitHub
       </a>
 
