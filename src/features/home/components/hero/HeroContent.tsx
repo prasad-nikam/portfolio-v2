@@ -21,7 +21,7 @@ export function HeroContent() {
         <Heading
           as="h1"
           size="display"
-          className="z-99 mt-8 max-w-none text-balance sm:max-w-[12ch]"
+          className="z-49 mt-8 max-w-none text-balance sm:max-w-[12ch]"
         >
           Building software as{" "}
           <span className="relative inline-block px-1">

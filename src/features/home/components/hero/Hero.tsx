@@ -7,7 +7,7 @@ export function Hero() {
   return (
     <Section spacing="none" className="min-h-svh overflow-hidden">
       <Container>
-        <div className="grid min-h-svh items-center gap-12 lg:grid-cols-[1.2fr_0.8fr] lg:gap-20">
+        <div className="grid min-h-svh items-center gap-12 pt-10 lg:grid-cols-[1.2fr_0.8fr] lg:gap-20">
           <div className="order-1 lg:-translate-y-4">
             <HeroContent />
           </div>
