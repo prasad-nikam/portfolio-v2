@@ -1,42 +1,29 @@
-import { AnimatePresence, motion } from "motion/react";
-
+import { motion } from "motion/react";
 import { NavigationDesktop } from "./NavigationDesktop";
 import { NavigationMobile } from "./NavigationMobile";
-// import { useScrollTrigger } from "../hooks/useScrollTrigger";
+import { useScrollTrigger } from "../hooks/useScrollTrigger";
 
 export function Navigation() {
-  const showNavigation = true;
+  const showNavigation = useScrollTrigger();
 
   return (
     <>
-      <AnimatePresence>
-        {showNavigation && (
-          <motion.div
-            initial={{
-              opacity: 0,
-              y: -12,
-              scale: 0.98,
-            }}
-            animate={{
-              opacity: 1,
-              y: 0,
-              scale: 1,
-            }}
-            exit={{
-              opacity: 0,
-              y: -12,
-              scale: 0.98,
-            }}
-            transition={{
-              duration: 0.22,
-              ease: "easeOut",
-            }}
-          >
-            <NavigationDesktop />
-            <NavigationMobile />
-          </motion.div>
-        )}
-      </AnimatePresence>
+      <motion.div
+        className="fixed inset-x-0 top-0 z-50"
+        animate={{
+          opacity: showNavigation ? 1 : 0,
+          y: showNavigation ? 0 : -12,
+        }}
+        transition={{
+          duration: 0.2,
+        }}
+        style={{
+          pointerEvents: showNavigation ? "auto" : "none",
+        }}
+      >
+        <NavigationDesktop />
+        <NavigationMobile />
+      </motion.div>
     </>
   );
 }

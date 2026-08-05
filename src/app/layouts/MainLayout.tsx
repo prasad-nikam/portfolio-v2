@@ -5,7 +5,6 @@ export function MainLayout() {
   return (
     <>
       <Navigation />
-
       <main>
         <Outlet />
       </main>

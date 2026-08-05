@@ -3,7 +3,7 @@ import { Menu } from "lucide-react";
 export function NavigationMobile() {
   return (
     <nav className="fixed top-4 right-0 left-0 z-50 lg:hidden">
-      <div className="mx-auto flex max-w-(--container-xl) items-center justify-between px-6">
+      <div className="mx-auto flex max-w-xl items-center justify-between px-6">
         <button
           type="button"
           className="font-display text-lg font-semibold tracking-tight text-(--color-ink)"
