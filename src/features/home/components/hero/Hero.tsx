@@ -5,10 +5,10 @@ import { HeroPortrait } from "./HeroPortrait";
 
 export function Hero() {
   return (
-    <Section className="overflow-hidden">
+    <Section spacing="none" className="min-h-svh overflow-hidden">
       <Container>
-        <div className="grid min-h-[calc(100svh-var(--header-height))] items-center gap-12 lg:grid-cols-[1.15fr_0.85fr] lg:gap-20">
-          <div className="order-1">
+        <div className="grid min-h-svh items-center gap-12 lg:grid-cols-[1.2fr_0.8fr] lg:gap-20">
+          <div className="order-1 lg:-translate-y-4">
             <HeroContent />
           </div>
 

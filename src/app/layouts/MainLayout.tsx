@@ -1,11 +1,14 @@
 import { Outlet } from "react-router";
+import { Navigation } from "@/features/navigation/components/Navigation";
 
 export function MainLayout() {
   return (
     <>
-      {/* Navbar */}
+      <Navigation />
 
-      <Outlet />
+      <main>
+        <Outlet />
+      </main>
 
       {/* Footer */}
     </>

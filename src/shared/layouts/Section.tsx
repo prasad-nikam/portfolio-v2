@@ -9,6 +9,7 @@ const sectionVariants = cva("w-full", {
       sm: "py-16",
       md: "py-24",
       lg: "py-32",
+      none: "py-0",
     },
   },
 
