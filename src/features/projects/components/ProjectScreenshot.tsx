@@ -11,7 +11,7 @@ export function ProjectScreenshot({ project }: ProjectScreenshotProps) {
         src={project.image}
         alt={`${project.title} screenshot`}
         loading="lazy"
-        className="aspect-[16/8] max-h-[680px] w-full object-cover object-top"
+        className="aspect-16/8 max-h-170 w-full object-cover object-top"
       />
     </figure>
   );
