@@ -12,7 +12,7 @@ export function MiniProject({ project }: MiniProjectProps) {
   const primaryLink = project.links[0];
 
   return (
-    <article className="border-b border-(--color-border) py-8 last:border-none">
+    <article className="border-b border-(--color-border) py-8">
       <div className="flex items-start justify-between gap-6">
         <div className="min-w-0 flex-1">
           <Heading as="h4" size="h5">
