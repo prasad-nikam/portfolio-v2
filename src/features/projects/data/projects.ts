@@ -30,7 +30,7 @@ export const featuredProjects: Project[] = [
       "TanStack Query",
     ],
 
-    image: "/projects/lms.webp",
+    image: "/projects/lms-student-portal.webp",
 
     links: [
       {
