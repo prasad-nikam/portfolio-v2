@@ -61,7 +61,7 @@ export const featuredProjects: Project[] = [
 
     technologies: ["Python", "Telegram Bot API"],
 
-    image: "/projects/telegram-bot.webp",
+    // image: "/projects/telegram-bot.webp",
 
     links: [
       {
@@ -93,7 +93,7 @@ export const featuredProjects: Project[] = [
 
     technologies: ["React", "TypeScript", "Node.js", "Express", "MongoDB"],
 
-    image: "/projects/passionate.webp",
+    // image: "/projects/passionate.webp",
 
     links: [
       {
@@ -119,7 +119,7 @@ export const miniProjects: Project[] = [
 
     technologies: ["TypeScript", "Cryptography"],
 
-    image: "/projects/hd-wallets.webp",
+    // image: "/projects/hd-wallets.webp",
 
     links: [
       {
@@ -167,7 +167,7 @@ export const miniProjects: Project[] = [
 
     technologies: ["React", "GitHub API"],
 
-    image: "/projects/github-analytics.webp",
+    // image: "/projects/github-analytics.webp",
 
     links: [
       {
@@ -191,7 +191,7 @@ export const miniProjects: Project[] = [
 
     technologies: ["React", "TypeScript"],
 
-    image: "/projects/old-portfolio.webp",
+    // image: "/projects/old-portfolio.webp",
 
     links: [
       {
