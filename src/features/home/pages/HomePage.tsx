@@ -3,7 +3,6 @@ import { Hero } from "../components/hero/Hero";
 import { Experience } from "@/features/experience/components/Experience";
 import { About } from "@/features/about/components/About";
 import { ContactSection } from "@/features/contact/components/ContactSection";
-import { Footer } from "@/features/footer/components/Footer";
 
 function HomePage() {
   return (
@@ -13,7 +12,6 @@ function HomePage() {
       <Experience />
       <About />
       <ContactSection />
-      <Footer />
     </div>
   );
 }

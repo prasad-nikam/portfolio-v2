@@ -10,7 +10,7 @@ export const featuredProjects: Project[] = [
       "A production-oriented LMS built around scalability, maintainability, and long-term growth.",
 
     overview:
-      "Designed with a feature-based architecture, reusable UI system, and type-safe API layer to support students, instructors, and administrators through a single extensible platform.",
+      "Built as a full-featured learning management platform with a feature-based architecture, reusable UI system, and type-safe API layer. The system brings students, teachers, and administrators together through dedicated workflows and role-based access, covering everything from authentication and user management to teacher profiles, course creation, lesson organization, and learning resources. The architecture is designed around clear feature boundaries and reusable components, making the platform easier to maintain, extend, and evolve as new LMS capabilities are introduced.",
 
     architecture: [
       "Feature-based frontend architecture",
@@ -98,7 +98,7 @@ export const featuredProjects: Project[] = [
     links: [
       {
         label: "GitHub",
-        href: "#",
+        href: "https://github.com/prasad-nikam/passionates",
       },
     ],
     featured: false,
@@ -124,7 +124,7 @@ export const miniProjects: Project[] = [
     links: [
       {
         label: "GitHub",
-        href: "#",
+        href: "https://github.com/prasad-nikam/hd-wallet",
       },
     ],
     featured: false,
@@ -148,7 +148,7 @@ export const miniProjects: Project[] = [
     links: [
       {
         label: "GitHub",
-        href: "#",
+        href: "https://github.com/prasad-nikam/Heros",
       },
     ],
     featured: false,
@@ -172,7 +172,7 @@ export const miniProjects: Project[] = [
     links: [
       {
         label: "GitHub",
-        href: "#",
+        href: "https://github.com/prasad-nikam/fastapi-github-analytics",
       },
     ],
     featured: false,
@@ -196,7 +196,7 @@ export const miniProjects: Project[] = [
     links: [
       {
         label: "GitHub",
-        href: "#",
+        href: "https://github.com/prasad-nikam/portfolio",
       },
     ],
     featured: false,

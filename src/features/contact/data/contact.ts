@@ -22,13 +22,13 @@ export const contact: Contact = {
     },
     {
       label: "GitHub",
-      href: "https://github.com/yourusername",
+      href: "https://github.com/prasad-nikam",
       icon: SiGithub,
       external: true,
     },
     {
       label: "LinkedIn",
-      href: "https://linkedin.com/in/yourusername",
+      href: "https://www.linkedin.com/in/prasadnikam52/",
       icon: MessageCircleMore,
       external: true,
     },
